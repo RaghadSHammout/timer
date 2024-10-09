@@ -1,0 +1,33 @@
+.container {
+    background-color: #343a40;
+    border: 1px solid #495057;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+#counter {
+    background-color: #495057;
+}
+
+.btn:hover{
+    color: #495057 !important;
+    background-color: white !important;
+}
+
+.clock {
+    animation: pulse 1s infinite linear;
+    display: inline-block;
+    padding: 10px; 
+}
+
+
+@keyframes pulse {
+    0%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(0.9);
+    }
+
+}
